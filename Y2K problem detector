@@ -1,0 +1,7 @@
+#python
+BY=int(input("Enter Year of Birth\n"))
+CY=int(input("Enter Current year\n"))
+if BY>CY:
+    print("Your age is",(100+CY)-BY)
+else:
+    print("Your age is",CY-BY)
