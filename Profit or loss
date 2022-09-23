@@ -1,0 +1,13 @@
+#python
+X=float(input())
+Y=float(input())
+W=X/12
+l=(Y-W)*12
+print('enter the price of a dozen mangoes')
+print('enter the price at which 1 mango is being sold')
+if (W>Y):
+    print(f'loss:Rs.','%.2f' %l)
+elif(W<Y):
+    print(f'profit:Rs.','%.2f' %l)
+else:
+    print(f'no profit nor loss')
