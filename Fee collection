@@ -1,0 +1,19 @@
+#python
+print("Enter the student type")
+X=str(input())
+if(X=="MSDS"):
+    TF=float(input('Enter tuition fee\n'))
+    BF=float(input('Enter bus fee\n'))
+    print("The fees to be paid by the student is Rs.","%.2f" %(TF+BF))
+elif(X=="MSH"):
+    TF=float(input("Enter tuition fee\n"))
+    HF=float(input("Enter hostel fee\n"))
+    print("The fees to be paid by the student is Rs.","%.2f" %(TF+HF))
+elif(X=="MGSDS"):
+    TF=float(input("Enter tuition fee\n"))
+    BF=float(input("Enter bus fee\n"))  
+    print("The fees to be paid by the student is Rs.","%.2f" %((1.5*TF)+BF))
+elif(X=="MGSH"):    
+    TF=float(input("Enter tuition fee\n"))
+    HF=float(input("Enter hostel fee\n"))
+    print("The fees to be paid by the student is Rs.","%.2f" %((1.5*TF)+HF))
