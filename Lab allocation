@@ -1,0 +1,10 @@
+#python
+X=int(input("Enter X \n"))
+Y=int(input("Enter Y \n"))
+Z=int(input("Enter Z \n"))
+if (X<Y) and (X<Z):
+    print("L1 has the minimal seating capacity")
+elif(Y<Z) and (Y<X):
+    print("L2 has the minimal seating capacity")
+else:
+    print("L3 has the minimal seating capacity")
